@@ -1,7 +1,11 @@
 
 <?php
 
-class Burguer {
+
+require 'JunkFord.php';
+
+
+class Burguer extends JunkFood {
     
     private string $name;
 
