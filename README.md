@@ -10,5 +10,11 @@ UML e modelagem de classes (sistemas)
   ex: Cliente, Conta, Order, Invoice, Ticket...
 
 **Métodos** devem ser um verbo, uma **ação**. \
-    ex: ```php getName(): string, hasUser(): bool, findUser(): ?User ```
-    ex: ```php isValid(): bool, hasUser(): bool, findUser(int id): ?User ```
+
+    ``` php
+        getName(): string, hasUser(): bool, findUserByEmail(): ?User 
+    ```
+
+    ``` php
+        isValid(): bool, hasUser(): bool, findUser(int id): ?User
+    ```
