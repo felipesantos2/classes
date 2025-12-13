@@ -1,6 +1,5 @@
 <?php
 
-
 class Singleton
 {
     private static ?Singleton $_instance = null;
