@@ -1,8 +1,8 @@
 <?php
 
-class Singleton
+class Teste
 {
-    private static ?Singleton $_instance = null;
+    private static ?Teste $_instance = null;
 
     private function __construct() {}
 
